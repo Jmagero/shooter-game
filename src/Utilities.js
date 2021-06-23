@@ -111,7 +111,7 @@ class ChaserShip extends Entity {
       }
     }
 }
-
+  
 class GunShip extends Entity {
     constructor(scene, x, y) {
       super(scene, x, y, "sprEnemy0", "GunShip");
