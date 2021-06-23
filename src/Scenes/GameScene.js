@@ -38,5 +38,12 @@ export default class GameScene extends Phaser.Scene {
       frameRate: 20,
       repeat: -1
     });
+
+    this.player = new Player(
+      this,
+      this.game.config.width * 0.5,
+      this.game.config.height * 0.5,
+      "sprPlayer"
+    );
   }
 };
